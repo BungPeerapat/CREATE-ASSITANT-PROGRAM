@@ -48,6 +48,7 @@
             this.Memberb.TabIndex = 14;
             this.Memberb.Text = "Member";
             this.Memberb.UseVisualStyleBackColor = false;
+            this.Memberb.Click += new System.EventHandler(this.Memberb_Click);
             // 
             // Adminb
             // 
@@ -82,6 +83,7 @@
             this.PASSWORDTEXT.Size = new System.Drawing.Size(350, 49);
             this.PASSWORDTEXT.TabIndex = 11;
             this.PASSWORDTEXT.UseSystemPasswordChar = true;
+            this.PASSWORDTEXT.TextChanged += new System.EventHandler(this.PASSWORDTEXT_TextChanged);
             // 
             // USERNAMETEXT
             // 
@@ -90,6 +92,7 @@
             this.USERNAMETEXT.Name = "USERNAMETEXT";
             this.USERNAMETEXT.Size = new System.Drawing.Size(350, 49);
             this.USERNAMETEXT.TabIndex = 7;
+            this.USERNAMETEXT.TextChanged += new System.EventHandler(this.USERNAMETEXT_TextChanged);
             // 
             // pictureBox1
             // 
@@ -101,6 +104,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // LoginMain
             // 

@@ -15,6 +15,8 @@ namespace CREATE_ASSITANT_PROGRAM
         public Botscreen()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(1050, 380);
         }
 
         private void Form2_Load(object sender, EventArgs e)

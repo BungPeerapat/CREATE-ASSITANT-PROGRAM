@@ -50,6 +50,7 @@
             this.ClientSize = new System.Drawing.Size(565, 489);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Botscreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Botscreen";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
