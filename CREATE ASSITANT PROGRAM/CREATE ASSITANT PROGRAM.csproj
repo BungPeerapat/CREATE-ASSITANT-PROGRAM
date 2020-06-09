@@ -169,5 +169,11 @@
   <ItemGroup>
     <None Include="sound\BOTSOUNDTEST\แก้เสียงแล้ว\แนะนำตัว.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElementaryOddballLiger-max-1mb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\other\ElementaryOddballLiger-max-1mb.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

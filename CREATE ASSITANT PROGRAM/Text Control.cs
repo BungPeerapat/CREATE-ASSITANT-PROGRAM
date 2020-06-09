@@ -25,5 +25,10 @@ namespace CREATE_ASSITANT_PROGRAM
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Console.Beep();
+        }
     }
 }
