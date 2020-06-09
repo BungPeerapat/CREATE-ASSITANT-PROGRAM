@@ -12,11 +12,17 @@ namespace CREATE_ASSITANT_PROGRAM
 {
     public partial class Botscreen : Form
     {
-        public Botscreen()
+        string closeform = "ON";
+         public Botscreen()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(1050, 380);
+            DelayForStop3s();
+            Task.Delay(3000);
+            Console.Beep();
+            Task.Delay(3000);
+            Console.Beep();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -24,13 +30,17 @@ namespace CREATE_ASSITANT_PROGRAM
             this.BackColor = Color.Lime;
             this.TransparencyKey = Color.Lime;
             this.FormBorderStyle = FormBorderStyle.None;
-            DelayForStop3s();
-            this.Hide();
         }
         
-        async public static void DelayForStop3s()
+        async internal static void DelayForStop3s()
         {
             await Task.Delay(3000);
+            Shutdown();
+        }
+         
+        public static void Shutdown()
+        {
+         Botscreen.ActiveForm.Hide();
         }
     }
 }
