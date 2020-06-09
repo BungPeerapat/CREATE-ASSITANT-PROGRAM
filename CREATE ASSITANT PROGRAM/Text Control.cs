@@ -15,6 +15,10 @@ namespace CREATE_ASSITANT_PROGRAM
         public TextContorl()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(1042, 0);
+            this.BackColor = Color.LimeGreen;
+            this.TransparencyKey = Color.LimeGreen;
         }
 
         private void Form2_Load(object sender, EventArgs e)

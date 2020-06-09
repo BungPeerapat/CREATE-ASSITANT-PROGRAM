@@ -73,6 +73,26 @@ namespace CREATE_ASSITANT_PROGRAM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ElementaryOddballLiger_max_1mb {
+            get {
+                object obj = ResourceManager.GetObject("ElementaryOddballLiger-max-1mb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ElementaryOddballLiger_max_1mb1 {
+            get {
+                object obj = ResourceManager.GetObject("ElementaryOddballLiger-max-1mb1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login_form_design_vector_19450333 {
             get {
                 object obj = ResourceManager.GetObject("login-form-design-vector-19450333", resourceCulture);
