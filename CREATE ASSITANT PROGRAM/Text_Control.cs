@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CREATE_ASSITANT_PROGRAM
 {
-    public partial class Form1 : Form
+    public partial class Text_Control : Form
     {
-        public Form1()
+        public Text_Control()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;

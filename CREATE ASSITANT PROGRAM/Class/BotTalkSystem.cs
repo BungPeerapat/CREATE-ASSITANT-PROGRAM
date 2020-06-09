@@ -64,7 +64,7 @@ namespace CREATE_ASSITANT_PROGRAM
                 SendText = " TextOpen ";
                 MessageBox.Show(SendText);
                 Console.Beep();
-                TextContorl TC = new TextContorl();
+                Text_Control TC = new Text_Control();
                 TC.Show();
             }
         }

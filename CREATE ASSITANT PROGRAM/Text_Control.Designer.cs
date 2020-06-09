@@ -1,6 +1,6 @@
 ﻿namespace CREATE_ASSITANT_PROGRAM
 {
-    partial class Form1
+    partial class Text_Control
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Text_Control
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "Text_Control";
+            this.Text = "Text Contorl";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

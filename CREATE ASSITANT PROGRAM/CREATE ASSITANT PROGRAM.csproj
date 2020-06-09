@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="Class\BotTalkSystem.cs" />
     <Compile Include="Class\Playersound.cs" />
+    <Compile Include="Text_Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text_Control.Designer.cs">
+      <DependentUpon>Text_Control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,12 +72,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Text Control.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Text Control.Designer.cs">
-      <DependentUpon>Text Control.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
@@ -80,13 +80,13 @@
     <EmbeddedResource Include="Botscreen.resx">
       <DependentUpon>Botscreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Text Control.resx">
-      <DependentUpon>Text Control.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text_Control.resx">
+      <DependentUpon>Text_Control.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -171,9 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ElementaryOddballLiger-max-1mb.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\other\ElementaryOddballLiger-max-1mb.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="img\other\tumblr_p8cgjk0CmF1wilsp2o2_250.gif" />
