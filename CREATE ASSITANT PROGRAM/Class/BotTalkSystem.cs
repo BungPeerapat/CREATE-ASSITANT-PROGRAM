@@ -8,6 +8,7 @@ using System.Speech.Recognition;
 using System.Windows.Forms;
 using WMPLib;
 using CREATE_ASSITANT_PROGRAM.Class;
+using System.IO;
 
 namespace CREATE_ASSITANT_PROGRAM
 {
@@ -54,7 +55,17 @@ namespace CREATE_ASSITANT_PROGRAM
 
                 SendText = "Test";
                 MessageBox.Show(SendText);
-
+                System.IO.Stream str = Properties.Resources.แนะนำตัว;
+                System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
+                snd.Play();
+            }
+            if (e.Result.Text == "Text Control")
+            {
+                SendText = " TextOpen ";
+                MessageBox.Show(SendText);
+                Console.Beep();
+                TextContorl TC = new TextContorl();
+                TC.Show();
             }
         }
     }

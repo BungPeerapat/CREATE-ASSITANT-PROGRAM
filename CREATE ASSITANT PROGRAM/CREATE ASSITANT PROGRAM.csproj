@@ -49,11 +49,11 @@
   <ItemGroup>
     <Compile Include="Class\BotTalkSystem.cs" />
     <Compile Include="Class\Playersound.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Botscreen.cs">
       <SubType>Form</SubType>
@@ -61,13 +61,22 @@
     <Compile Include="Botscreen.Designer.cs">
       <DependentUpon>Botscreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Text Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text Control.Designer.cs">
+      <DependentUpon>Text Control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Botscreen.resx">
       <DependentUpon>Botscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Control.resx">
+      <DependentUpon>Text Control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -156,6 +165,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sound\BOTSOUNDTEST\แก้เสียงแล้ว\แนะนำตัว.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
