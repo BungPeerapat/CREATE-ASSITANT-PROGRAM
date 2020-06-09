@@ -59,7 +59,7 @@ namespace CREATE_ASSITANT_PROGRAM
                 System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
                 snd.Play();
             }
-            if (e.Result.Text == "Text Control")
+            if (e.Result.Text == "Sure" || e.Result.Text == "sure")
             {
                 SendText = " TextOpen ";
                 MessageBox.Show(SendText);

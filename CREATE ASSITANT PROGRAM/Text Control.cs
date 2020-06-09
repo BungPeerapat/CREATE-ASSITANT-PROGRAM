@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CREATE_ASSITANT_PROGRAM
 {
-    public partial class TEXTCONTROL : Form
+    public partial class TextContorl : Form
     {
-        public TEXTCONTROL()
+        public TextContorl()
         {
             InitializeComponent();
         }

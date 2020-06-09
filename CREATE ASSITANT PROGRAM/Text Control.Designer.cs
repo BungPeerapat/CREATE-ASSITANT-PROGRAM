@@ -1,6 +1,6 @@
 ﻿namespace CREATE_ASSITANT_PROGRAM
 {
-    partial class Form2
+    partial class TextContorl
     {
         /// <summary>
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // TextContorl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 612);
-            this.Name = "Form2";
+            this.Name = "TextContorl";
             this.Text = "Text_Contorl";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
