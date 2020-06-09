@@ -34,9 +34,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(565, 489);
             this.Name = "Text_Control";
             this.Text = "Text Contorl";
+            this.Load += new System.EventHandler(this.Text_Control_Load);
             this.ResumeLayout(false);
 
         }

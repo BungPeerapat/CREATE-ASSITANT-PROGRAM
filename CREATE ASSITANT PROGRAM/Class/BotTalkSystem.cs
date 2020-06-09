@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using WMPLib;
 using CREATE_ASSITANT_PROGRAM.Class;
 using System.IO;
+using System.Threading;
 
 namespace CREATE_ASSITANT_PROGRAM
 {
@@ -66,7 +67,9 @@ namespace CREATE_ASSITANT_PROGRAM
                 Console.Beep();
                 Text_Control TC = new Text_Control();
                 TC.Show();
+                
             }
+            
         }
     }
 }

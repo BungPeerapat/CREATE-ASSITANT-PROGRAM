@@ -17,8 +17,14 @@ namespace CREATE_ASSITANT_PROGRAM
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(1042, 0);
-            this.BackColor = Color.LimeGreen;
-            this.TransparencyKey = Color.LimeGreen;
+
+        }
+
+        private void Text_Control_Load(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Lime;
+            this.TransparencyKey = Color.Lime;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
     }
 }

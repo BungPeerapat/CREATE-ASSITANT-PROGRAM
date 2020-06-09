@@ -24,6 +24,13 @@ namespace CREATE_ASSITANT_PROGRAM
             this.BackColor = Color.Lime;
             this.TransparencyKey = Color.Lime;
             this.FormBorderStyle = FormBorderStyle.None;
+            DelayForStop3s();
+            this.Hide();
+        }
+        
+        async public static void DelayForStop3s()
+        {
+            await Task.Delay(3000);
         }
     }
 }
