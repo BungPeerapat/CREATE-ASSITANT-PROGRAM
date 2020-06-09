@@ -121,22 +121,22 @@
   <data name="แนะนำตัว" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\sound\BOTSOUNDTEST\แก้เสียงแล้ว\แนะนำตัว.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="LogoUBRC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\other\LogoUBRC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="login-form-design-vector-19450333" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\login-form-design-vector-19450333.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\aimg\Test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ElementaryOddballLiger-max-1mb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ElementaryOddballLiger-max-1mb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\gif\1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ElementaryOddballLiger-max-1mb1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\other\ElementaryOddballLiger-max-1mb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tumblr_p8cgjk0CmF1wilsp2o2_250" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\other\tumblr_p8cgjk0CmF1wilsp2o2_250.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoUBRC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\other\LogoUBRC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
